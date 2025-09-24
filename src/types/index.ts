@@ -26,7 +26,7 @@ export interface ScrollTriggerVars {
   toggleActions?: string;
   scrub?: boolean | number;
   pin?: boolean | string | Element;
-  [key: string]: any;
+  [key: string]: unknown;
 }
 
 export interface AnimationProps {

@@ -1,4 +1,3 @@
-import { color } from "framer-motion";
 import React, { useEffect, useRef } from "react";
 
 interface Segment {

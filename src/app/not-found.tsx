@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function NotFound() {
   return (
@@ -26,15 +27,16 @@ export default function NotFound() {
         <div className="flex flex-col items-center space-y-2 text-description relative px-4 py-8">
           <h1 className="text-base font-semibold">Oops! page not found</h1>
           <p className="text-base font-semibold text-center">
-            It seems the page that you are looking for doesn't
+            {`            It seems the page that you are looking for doesn't
+`}{" "}
             <br /> exist or has been moved
           </p>
-          <a
+          <Link
             href="/"
             className="bg-secondary rounded-xl px-3 py-2 text-sm text-black"
           >
             Go back to Home →
-          </a>
+          </Link>
         </div>
       </motion.div>
     </div>
