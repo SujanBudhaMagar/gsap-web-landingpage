@@ -42,7 +42,7 @@ export const Footer = () => {
                   experimentation.
                 </p>
                 <div className="rounded-3xl bg-[#0A0A0A] text-[#EAEAEA] w-[260px] pl-3 py-2">
-                  theofficialneomatrix@gmail.com
+                  testers123@gmail.com
                 </div>
               </div>
 
@@ -74,7 +74,7 @@ export const Footer = () => {
                   <h1 className="text-primary text-xl">Locations</h1>
                   <div className="text-description flex items-center gap-1">
                     <FaLocationDot />
-                    <span>Alberta, Canada</span>
+                    <span>Kathmandu, Nepal</span>
                   </div>
                   <div className="text-description flex items-center gap-1">
                     <FaLocationDot />

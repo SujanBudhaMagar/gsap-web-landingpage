@@ -13,7 +13,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Neomatrix Nepal",
+  title: "",
   description: "Organizational website.",
 };
 

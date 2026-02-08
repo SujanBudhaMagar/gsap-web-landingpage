@@ -8,7 +8,7 @@ export const Navbar = () => {
     <nav className="globalContainer">
       <div className="flex items-center justify-between">
         <Image
-          src="/img/neomatrixLogo.png"
+          src="/img/Logo.png"
           alt="Neomatrix Logo"
           height={500}
           width={400}
